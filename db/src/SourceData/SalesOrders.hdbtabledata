@@ -1,0 +1,36 @@
+{
+	"format_version": 1,
+	"imports": [{
+		"target_table": "SourceData::SalesOrders",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "SourceData::SalesOrders.csv",
+			"has_header": true,
+			"type_config": {
+				"delimiter": ",",
+				"do_quote": true
+			}
+		},
+		"import_settings": {
+			"import_columns": [
+				"SALESORDERID",
+				"CREATEDBY",
+				"CREATEDAT",
+				"CHANGEDBY",
+				"CHANGEDAT",
+				"FISCVARIANT",
+				"FISCALYEARPERIOD",
+				"NOTEID",
+				"PARTNERID",
+				"SALESORG",
+				"CURRENCY",
+				"GROSSAMOUNT",
+				"NETAMOUNT",
+				"TAXAMOUNT",
+				"LIFECYCLESTATUS",
+				"BILLINGSTATUS",
+				"DELIVERYSTATUS"
+				]
+		}
+	}]
+}

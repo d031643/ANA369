@@ -1,0 +1,12 @@
+{ 
+  "role": { 
+    "name": "DWC_CONSUMPTION_ROLE#", 
+    "object_privileges": [ 
+      { 
+        "name":"Calc-View::Synonym_CalcView", 
+        "type":"VIEW", 
+        "privileges_with_grant_option":[ "SELECT" ] 
+      }
+    ]
+  }
+}

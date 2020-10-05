@@ -1,0 +1,12 @@
+{ 
+  "role": { 
+    "name": "SourceData::SalesOrderHeaderReadG#", 
+    "object_privileges": [ 
+      { 
+        "name":"SourceData::SalesOrderHeader", 
+        "type":"TABLE", 
+        "privileges_with_grant_option":[ "SELECT" ] 
+      }
+    ]
+  }
+}

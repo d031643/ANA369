@@ -1,0 +1,10 @@
+COLUMN TABLE "SourceData::SalesOrderHeader" (
+	"RecordMode" NVARCHAR(1),
+	"SalesOrderID" INTEGER,
+	"OrderDate" SECONDDATE,
+	"CustomerName" NVARCHAR(100),
+	"ProductName" NVARCHAR(100),
+	"OrderQuantity" INTEGER,
+	"Sales" DECIMAL(15, 2),
+	PRIMARY KEY ("RecordMode", "SalesOrderID")
+)

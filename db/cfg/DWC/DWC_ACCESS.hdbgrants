@@ -1,0 +1,24 @@
+{
+	"<UPS_NAME>": {
+		"object_owner": {
+			"roles": [],
+			"container_roles": [],
+			"object_privileges": [
+				{
+				  "type": "VIEW",
+				  "name": "SOI_Integration",
+				  "privileges_with_grant_option": [
+				    "SELECT"
+				  ]
+				},
+				{
+				  "type": "VIEW",
+				  "name": "Product_Integration",
+				  "privileges_with_grant_option": [
+				    "SELECT"
+				  ]
+				}
+			]
+		}
+	}
+}

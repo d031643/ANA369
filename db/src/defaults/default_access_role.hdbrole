@@ -1,0 +1,34 @@
+{
+   "role":{
+		"name":"default_access_role",
+		"object_privileges": [
+			{
+			  "type": "SYNONYM",
+			  "name": "SOI_INTEGRATION",
+			  "privileges": [
+			    "SELECT"
+			  ]
+			},
+			{
+			  "type": "SYNONYM",
+			  "name": "PRODUCT_INTEGRATION",
+			  "privileges": [
+			    "SELECT"
+			  ]
+			}			
+		],
+		"schema_privileges":[
+		 {
+		    "privileges":[
+		       "SELECT",
+		       "INSERT",
+		       "UPDATE",
+		       "DELETE",
+		       "EXECUTE",
+		       "CREATE TEMPORARY TABLE",
+		       "SELECT CDS METADATA"
+		    ]
+		 }
+		]
+   }
+}
