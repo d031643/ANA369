@@ -10,18 +10,18 @@ modules:
       - name: hdi_db
         properties:
           TARGET_CONTAINER: '~{hdi-container-name}'      
-      - name: <MODULE_UPS_NAME>
+      - name: DB_MODULE_xxx
 resources:
   - name: hdi_db
     parameters:
       config:
-         schema: SQLDWinDWC_schema
+         schema: SQLDWinDWC_xxx
 # if required, add unique database_id
 #        database_id:   
     properties:
       hdi-container-name: '${service-name}'
     type: com.sap.xs.hdi-container
-  - name: <MODULE_UPS_NAME>
+  - name: DB_MODULE_xxx
     type: org.cloudfoundry.existing-service
     parameters:
-      service-name: <UPS_NAME>
+      service-name: UPS_xxx

@@ -1,13 +1,13 @@
 {
 	"SOI_INTEGRATION" : {
     	"target": {
-    		"schema.configure": "<UPS_NAME>/schema",
+    		"schema.configure": "UPS_xxx/schema",
     		"object": "SOI_Integration"
     	}
 	},
 	"PRODUCT_INTEGRATION" : {
     	"target": {
-    		"schema.configure": "<UPS_NAME>/schema",
+    		"schema.configure": "UPS_xxx/schema",
     		"object": "Product_Integration"
     	}
 	}
