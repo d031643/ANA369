@@ -1,13 +1,13 @@
 {
 	"SOI_INTEGRATION" : {
     	"target": {
-    		"schema.configure": "UPS_xxx/schema",
+    		"schema.configure": "UPS_DWC_MEIERAX/schema",
     		"object": "SOI_Integration"
     	}
 	},
 	"PRODUCT_INTEGRATION" : {
     	"target": {
-    		"schema.configure": "UPS_xxx/schema",
+    		"schema.configure": "UPS_DWC_MEIERAX/schema",
     		"object": "Product_Integration"
     	}
 	}
