@@ -15,7 +15,7 @@ resources:
   - name: hdi_db
     parameters:
       config:
-         schema: SQLDWinDWC_xxx
+         schema: SQLDW_Schema_xxx
 # if required, add unique database_id
 #        database_id:   
     properties:
