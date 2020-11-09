@@ -7,10 +7,10 @@ TechEd 2020 - ANA369 "Common Tools for SQL data warehousing and SAP Data Warehou
 ## Download and Installation
 Preparation Steps
 1. Clone the repository
-2. Change Project Name to ANA369_### (### represent the student No.)
-3. Open mta.yaml and adjust "UPS_ANA369_###" (### represent the student No.)
-4. Open cfg/DWC_ACCESS.hdbgrants and and adjust "UPS_ANA369_###" (### represent the student No.)
-5. Open cfg/DWC_ACCESS.hdbsynonymconfig and and adjust "UPS_ANA369_###" (### represent the student No.)
+2. Change Project Name to ANA369_### (### represent your student no.)
+3. Open mta.yaml and adjust "UPS_ANA369_###" (### represent your student no.)
+4. Open cfg/DWC_ACCESS.hdbgrants and and adjust "UPS_ANA369_###" (### represent your student no.)
+5. Open cfg/DWC_ACCESS.hdbsynonymconfig and and adjust "UPS_ANA369_###" (### represent your student no.)
 
 Build Steps
 1. Right Mouse Click on Project Name
