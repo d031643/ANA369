@@ -16,7 +16,7 @@ Build Steps
 1. Right Mouse Click on Project Name
 1.1 Select Project -> Project Settings -> Cloud Foundry
 1.2 Select "Use the following settings for the project"
-1.2.1 API Endpoint: https://api.cf.eu10.hana.ondemand.com 
+1.2.1 API Endpoint: https://api.cf.eu10.hana.ondemand.com
 1.2.2 Organization: DW Cloud - PM_teched2020-ANA369
 1.2.3 Space: teched2020-ANA369
 1.3 Click Save -> Close
