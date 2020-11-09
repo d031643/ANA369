@@ -5,21 +5,21 @@ TechEd 2020 - ANA369 "Common Tools for SQL data warehousing and SAP Data Warehou
 ## Requirements
 
 ## Download and Installation
-Preparation
-1. Clone repository
-2. Change Project Name to SQLDW_xxx (xxx represents student #)
-3. Open mta.yaml and adjust "UPS_xxx" (xxx represents student #)
-4. Open cfg/DWC_ACCESS.hdbgrants and and adjust "UPS_xxx" (xxx represents student #)
-5. Open cfg/DWC_ACCESS.hdbsynonymconfig and and adjust "UPS_xxx" (xxx represents student #)
+Preparation Steps
+1. Clone the repository
+2. Change Project Name to ANA369_### (### represent student No. #)
+3. Open mta.yaml and adjust "UPS_ANA369_###" (### represent student #)
+4. Open cfg/DWC_ACCESS.hdbgrants and and adjust "UPS_xxx" (xxx represent student #)
+5. Open cfg/DWC_ACCESS.hdbsynonymconfig and and adjust "UPS_xxx" (xxx represent student #)
 
-Built
+Build Steps
 1. Right Mouse Click on Project Name
 1.1 Select Project -> Project Settings -> Cloud Foundry
 1.2 Select "Use the following settings for the project"
 1.2.1 API Endpoint: https://api.cf.eu10.hana.ondemand.com 
 1.2.2 Organization: DW Cloud - PM_teched2020-ANA369
 1.2.3 Space: teched2020-ANA369
-1.3 Click Save
+1.3 Click Save -> Close
 2. Right Mouse Click on "db" Folder
 2.1 Click Build -> Build
 
