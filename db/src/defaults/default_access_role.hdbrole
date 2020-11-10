@@ -4,14 +4,14 @@
 		"object_privileges": [
 			{
 			  "type": "SYNONYM",
-			  "name": "SOI_INTEGRATION",
+			  "name": "ANA369_SalesOrderItems",
 			  "privileges": [
 			    "SELECT"
 			  ]
 			},
 			{
 			  "type": "SYNONYM",
-			  "name": "PRODUCT_INTEGRATION",
+			  "name": "ANA369_Product",
 			  "privileges": [
 			    "SELECT"
 			  ]

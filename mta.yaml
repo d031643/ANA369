@@ -24,4 +24,4 @@ resources:
   - name: DB_MODULE_xxx
     type: org.cloudfoundry.existing-service
     parameters:
-      service-name: UPS_xxx
+      service-name: UPS_ANA369_MASTER

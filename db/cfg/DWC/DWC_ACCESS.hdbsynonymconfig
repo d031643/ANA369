@@ -1,14 +1,14 @@
 {
-	"SOI_INTEGRATION" : {
+	"ANA369_SalesOrderItems" : {
     	"target": {
-    		"schema.configure": "UPS_xxx/schema",
-    		"object": "SOI_Integration"
+    		"schema.configure": "UPS_ANA369_MASTER/schema",
+    		"object": "ANA369_SalesOrderItems"
     	}
 	},
-	"PRODUCT_INTEGRATION" : {
+	"ANA369_Product" : {
     	"target": {
-    		"schema.configure": "UPS_xxx/schema",
-    		"object": "Product_Integration"
+    		"schema.configure": "UPS_ANA369_MASTER/schema",
+    		"object": "ANA369_Product"
     	}
 	}
 }

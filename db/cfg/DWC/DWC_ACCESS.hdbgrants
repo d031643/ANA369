@@ -1,19 +1,19 @@
 {
-	"UPS_xxx": {
+	"UPS_ANA369_MASTER": {
 		"object_owner": {
 			"roles": [],
 			"container_roles": [],
 			"object_privileges": [
 				{
 				  "type": "VIEW",
-				  "name": "SOI_Integration",
+				  "name": "ANA369_SalesOrderItems",
 				  "privileges_with_grant_option": [
 				    "SELECT"
 				  ]
 				},
 				{
 				  "type": "VIEW",
-				  "name": "Product_Integration",
+				  "name": "ANA369_Product",
 				  "privileges_with_grant_option": [
 				    "SELECT"
 				  ]
