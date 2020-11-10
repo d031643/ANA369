@@ -15,7 +15,7 @@ resources:
   - name: hdi_db
     parameters:
       config:
-         schema: SQLDW_Schema_xxx
+         schema: ANA369_Schema_xxx
 # if required, add unique database_id
 #        database_id:   
     properties:
