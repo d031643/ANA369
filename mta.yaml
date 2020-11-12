@@ -1,4 +1,4 @@
-ID: SQLDWinDWC
+ID: ANA369
 _schema-version: '2.1'
 version: 0.0.1
 
@@ -10,7 +10,7 @@ modules:
       - name: hdi_db
         properties:
           TARGET_CONTAINER: '~{hdi-container-name}'      
-      - name: DB_MODULE_xxx
+      - name: DB_MODULE
 resources:
   - name: hdi_db
     parameters:
@@ -21,7 +21,7 @@ resources:
     properties:
       hdi-container-name: '${service-name}'
     type: com.sap.xs.hdi-container
-  - name: DB_MODULE_xxx
+  - name: DB_MODULE
     type: org.cloudfoundry.existing-service
     parameters:
       service-name: UPS_ANA369_MASTER
